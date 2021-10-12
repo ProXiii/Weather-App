@@ -1,7 +1,7 @@
-import 'package:clima/screens/city_screen.dart';
+import 'package:weather_app/screens/city_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:clima/utilities/constants.dart';
-import 'package:clima/services/weather.dart';
+import 'package:weather_app/utilities/constants.dart';
+import 'package:weather_app/services/weather.dart';
 
 class LocationScreen extends StatefulWidget {
   LocationScreen({this.locationWeather});
@@ -15,10 +15,10 @@ class LocationScreen extends StatefulWidget {
 class _LocationScreenState extends State<LocationScreen> {
   WeatherModel weather = WeatherModel();
 
-  int temperature;
-  String weatherIcon;
-  String weatherMessage;
-  String cityName;
+  late int temperature;
+  late String weatherIcon;
+  String? weatherMessage;
+  String? cityName;
 
   @override
   void initState() {

@@ -1,7 +1,7 @@
-import 'package:clima/screens/location_screen.dart';
+import 'package:weather_app/screens/location_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:clima/services/weather.dart';
+import 'package:weather_app/services/weather.dart';
 
 // const apiKey = '07a3966d2806a6fe38ac550c69866354';
 
